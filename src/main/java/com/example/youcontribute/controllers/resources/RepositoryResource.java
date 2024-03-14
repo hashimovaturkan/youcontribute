@@ -1,0 +1,26 @@
+package com.example.youcontribute.controllers.resources;
+
+import com.example.youcontribute.controllers.models.Repository;
+import lombok.Builder;
+import lombok.Data;
+
+import java.util.List;
+import java.util.stream.Collectors;
+
+@Data
+@Builder
+public class RepositoryResource {
+    private String name;
+    private String organization;
+
+    public static RepositoryResource createFor(Repository repository){
+        return RepositoryResource.builder()
+                .name("")
+                .organization("")
+                .build();
+    }
+
+    public static List<RepositoryResource> createFor(List<Repository> repositories){
+        return repositories.stream().map(RepositoryResource::createFor).collect(Collectors.toList());
+    }
+}
