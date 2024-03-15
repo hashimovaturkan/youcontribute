@@ -29,7 +29,6 @@ public class RepositoryController {
     }
 
     @GetMapping
-    @ResponseStatus(HttpStatus.CREATED)
     public List<RepositoryResource> list(){
         return RepositoryResource.createFor(repositoryService.list());
 

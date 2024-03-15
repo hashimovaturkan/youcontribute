@@ -26,6 +26,10 @@ dependencies {
 
 	testCompileOnly 'org.projectlombok:lombok:1.18.30'
 	testAnnotationProcessor 'org.projectlombok:lombok:1.18.30'
+	testImplementation group: 'com.h2database', name: 'h2', version: '2.2.224'
+	testImplementation 'org.testcontainers:testcontainers:1.16.3'
+	testImplementation 'org.testcontainers:junit-jupiter:1.16.3' // If you are using JUnit 5
+	testImplementation 'org.testcontainers:mysql:1.15.3'
 
 }
 

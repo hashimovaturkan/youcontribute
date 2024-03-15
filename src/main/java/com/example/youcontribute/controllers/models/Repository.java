@@ -17,7 +17,7 @@ import org.hibernate.annotations.GenericGenerator;
 @Builder
 public class Repository {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
+    @GeneratedValue(strategy = GenerationType.IDENTITY, generator = "native")
     @GenericGenerator(strategy = "native", name = "native")
     private Integer id;
 
