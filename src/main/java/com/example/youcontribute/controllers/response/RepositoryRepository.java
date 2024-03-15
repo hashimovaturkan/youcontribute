@@ -9,4 +9,6 @@ import java.util.List;
 public interface RepositoryRepository extends PagingAndSortingRepository<Repository, Integer> {
     List<Repository> findAll();
     void save(Repository r);
+
+    <T> void saveAll(List<T> list);
 }
