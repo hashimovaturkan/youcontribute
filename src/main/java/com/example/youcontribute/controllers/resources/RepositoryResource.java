@@ -1,6 +1,6 @@
 package com.example.youcontribute.controllers.resources;
 
-import com.example.youcontribute.controllers.models.Repository;
+import com.example.youcontribute.models.Repository;
 import lombok.Builder;
 import lombok.Data;
 

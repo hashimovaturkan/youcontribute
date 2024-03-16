@@ -1,7 +1,7 @@
 package com.example.youcontribute.service;
 
-import com.example.youcontribute.controllers.models.Repository;
-import com.example.youcontribute.controllers.response.RepositoryRepository;
+import com.example.youcontribute.models.Repository;
+import com.example.youcontribute.repositories.RepositoryRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

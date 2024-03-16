@@ -1,6 +1,6 @@
-package com.example.youcontribute.controllers.response;
+package com.example.youcontribute.repositories;
 
-import com.example.youcontribute.controllers.models.Repository;
+import com.example.youcontribute.models.Repository;
 import org.springframework.data.repository.PagingAndSortingRepository;
 
 

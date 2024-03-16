@@ -1,8 +1,7 @@
 package com.example.youcontribute.service;
 
-import com.example.youcontribute.controllers.models.Repository;
-import com.example.youcontribute.controllers.response.RepositoryRepository;
-import org.junit.jupiter.api.BeforeEach;
+import com.example.youcontribute.models.Repository;
+import com.example.youcontribute.repositories.RepositoryRepository;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;

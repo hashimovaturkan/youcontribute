@@ -1,6 +1,6 @@
 package com.example.youcontribute.controllers;
 
-import com.example.youcontribute.controllers.models.Repository;
+import com.example.youcontribute.models.Repository;
 import com.example.youcontribute.controllers.request.CreateRepositoryRequest;
 import com.example.youcontribute.service.RepositoryService;
 import com.fasterxml.jackson.databind.ObjectMapper;

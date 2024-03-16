@@ -2,6 +2,10 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+github:
+  token: ${GITHUB_API_TOKEN}
+  api-url: https://api.github.com
+
 # bunlari environmentde qeyd edirik uje
 #  datasource:
 #    username: root
