@@ -2,3 +2,8 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+# bunlari environmentde qeyd edirik uje
+#  datasource:
+#    username: root
+#    url: jdbc:mysql://localhost:3306/youcontribute
+#    password: turkan123

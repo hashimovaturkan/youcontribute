@@ -6,9 +6,9 @@ import org.springframework.data.repository.PagingAndSortingRepository;
 
 import java.util.List;
 
+@org.springframework.stereotype.Repository
 public interface RepositoryRepository extends PagingAndSortingRepository<Repository, Integer> {
     List<Repository> findAll();
     void save(Repository r);
-
-    <T> void saveAll(List<T> list);
+    <S extends Repository> List<S> saveAll(Iterable<S> entities);
 }
